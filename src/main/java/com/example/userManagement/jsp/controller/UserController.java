@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/get")
     public String getData(){
-        return "hello";
+        return "hello raj";
     }
 }
